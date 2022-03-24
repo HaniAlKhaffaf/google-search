@@ -3,50 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Advanced Search</title>
-    <link rel="stylesheet" type="text/css" href="../styling.css">
+    <link rel="stylesheet" type="text/css" href="../advancedstyle.css">
 </head>
 <body>
+    <header>
+        <img src="../logo/googlelogo.png" alt="google logo" class="g-logo">
+        <h3>Advanced Search</h3>
+    </header>
     <nav>
         <div>
-            <img src="../logo/googlelogo.png" alt="google logo" height="50" width="100">
             <a href="../index.html">Google</a>
-            <a href=""><img src="../logo/doticon.png" width="30" height="30"></a>
-            <a href=""><img src="../logo/usericon.png" width="30" height="30"></a>
+           <a href=""><img src="../logo/doticon.png" width="30" height="30"></a>
+            <a><button>Sign In</button></a>
         </div>
-        <h3>Advanced Search</h3>
+        
     </nav>
+    <br id="breaker">
 
     <main>
-        <div>
-            <form action="https://google.com/search">
-                <input type="text" name="as_q">
-                <input type="text" name="as_epq">
-                <input type="text" name="as_oq">
-                <input type="text" name="as_eq">
-                <input type="submit" value="Google Search">
-
-
-
-
+        <form action="https://www.google.com/search">
+            <span>Find pages with...</span> <span id="trial">To do this in the search box.
+            </span>
+            <div class="main_boxes">
+                <div><span class="trial3" >all these words:</span>
+                    <input class="search_box1" autofocus type="text" name="as_q" /><span class="trial1" >Type the important
+                        words:</span><span class="trial2" > tri-colour rat
+                        terrier</span>
+                </div>
+                <div> <span class="trial3" >this exact word or phrase:</span>
+                    <input class="search_box2" type="text" name="as_epq" /><span class="trial1">Put exact words in quotes:
+                        words:</span><span class="trial2" > "rat
+                        terrier"</span>
+                </div>
+                <div><span class="trial3" >any of these words:</span>
+                    <input class="search_box3" type="text" name="as_oq" /><span class="trial1">Type OR between all the
+                        words you want:</span><span class="trial2"> miniature OR standard</span>
+                </div>
+                <div>
+                    <span class="trial3">none of these words:</span><input class="search_box4" type="text"
+                        name="as_eq" /><span class="trial1">Put a minus sign just before words that you
+                         don't want:</span><span class="trial2" >  -rodent, -"Jack Russell"</span>
+                </div>
+                <div class="s-btn">
+                    <input type="submit" value="Advance search">
+                </div>
+                
+            </div>
+        </form>
+        <div id="main-refr">
+            <span >You can also...</span>
         </div>
-        <p>You can also...</p>
-        <a href="">Find Pages that are similar to a URL</a>
-        <a href="">Search pages that you've visited</a>
-        <a href="">Use operators in the search box</a>
-        <a href="">Customize your search settings</a>
+        <a href="" class="refr">Find pages that are similar to a URL</a>
+        <a href="" class="refr">Search pages that you've visited</a>
+        <a href="" class="refr">Use operators in the search box</a>
+        <a href="" class="refr">Customise your search settings</a>
     </main>
 
     <footer>
-        <p>Iraq</p>
-        <ul>
-            <li>About</li>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+        <h4>Iraq</h4>
+      <div class="links">
+        <div class="link-1">
+            <a href="">About</a>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How search Works</a>
+        </div>
+        <div class="link-2">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
+        </div>
     </footer>
 
 </body>
