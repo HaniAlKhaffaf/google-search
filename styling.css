@@ -78,7 +78,7 @@ nav button
     width: 500px;
     margin: 0px auto;
     position: relative;
-    margin-top: -8px;
+    margin-top: 8px;
     text-align: center;
 }
 
@@ -113,6 +113,22 @@ nav button
 .vs-icon
 {
     width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 60px;
+}
+
+.si-icon
+{
+    width: 14px;
+    position: absolute;
+    top: 16px;
+    right: 90px;
+}
+
+.s-icon
+{
+    width: 20px;
     position: absolute;
     top: 13px;
     right: 24px;

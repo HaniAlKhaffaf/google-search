@@ -10,36 +10,43 @@
     <nav>
         <a href="../index.html">Google</a>
         <a href=""><img src="../logo/doticon.png" width="30" height="30"></a>
-        <a href=""><img src="../logo/usericon.png" width="30" height="30"></a>
+        <a><button>Sign In</button></a>
     </nav>
 
     <main>
-        <img src="../logo/googleimages.png" alt="google images logo" height="100" width="300">
-        <div id="searchbar">
+        <section class="section-1">
+            <img src="../logo/googleimages.png" class="logo" alt="google images logo" height="100" width="300">
             <form action="https://google.com/search">
-                <input hidden name="tbm" value="isch">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
+                <div class="s-box">
+                    <img src="../logo/searchlogo.png" class="search-icon" alt="searching logo">
+                    <input hidden  name="tbm" value="isch">
+                    <input type="text" class="s-input" name="q">
+                    <img src="../logo/searchbyvoice.png" class="vs-icon" alt="search by voice logo">
+                    <img src="../logo/googlecamera.svg" class="si-icon" alt="search by image logo">
+                    <img src="../logo/searchlogo.png" class="s-icon" alt="searching logo">
+                    <input type="submit" class="s-btn" value="Google Search">
+                </div>
             </form>
-        </div>
+        </section>
+        
 
     </main>
 
     <footer>
-        <p>Iraq</p>
-        <ul>
-            <li>About</li>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
-
-
+        <h4>Iraq</h4>
+      <div class="links">
+        <div class="link-1">
+            <a href="">About</a>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How search Works</a>
+        </div>
+        <div class="link-2">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
+        </div>
     </footer>
-
-
 </body>
 </html>
