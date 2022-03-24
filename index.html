@@ -6,44 +6,51 @@
     <link rel="stylesheet" type="text/css" href="styling.css">
 </head>
 <body>
-
-    <nav>
-        <ul>
-            <a href="">Gmail</a>
-            <a href="imagesAdvanced/imageSearch.html">Images</a>
-            <a href="imagesAdvanced/advancedSearch.html">Advanced Search</a>
-            <a href=""><img src="logo/doticon.png" width="30" height="30"></a>
-            <a href=""><img src="logo/usericon.png" width="30" height="30"></a>
-        </ul>
-    </nav>
+        <nav>
+            
+                <a class="links" href="">Gmail</a>
+                <a class="links" href="imagesAdvanced/imageSearch.html">Images</a>
+                <a class="links" href="imagesAdvanced/advancedSearch.html">Advanced Search</a>
+                <a href=""><img src="logo/doticon.png" width="30" height="30"></a>
+                <button>Sign In</button></a>
+        
+        </nav>
 
     <main>
-        <img src="logo/googlelogo.png" alt="google logo" height="100" width="300">
-        <div id="searchbar">
-            <form action="https://google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-                <input type="submit" name="btnI"  value="Im Feeling Lucky">
-                <input hidden name="source" value="hp">
+        <section class="section-1">
+            <img src="logo/googlelogo.png" class="logo" alt="google logo" height="100" width="300">
+            <form action="https://google.com/search"><br>
+                <div class="s-box">
+                    <img src="logo/searchlogo.png" class="search-icon" alt="searching logo">
+                    <input type="text" name="q" class="s-input">
+                    <img src="logo/searchbyvoice.png" class="vs-icon" alt="search by voice logo">
+                    <input type="submit" class="s-btn" value="Google Search">
+                    <input type="submit" class="s-btn" name="btnI"  value="Im Feeling Lucky">
+                </div>
             </form>
-        </div>
-
-        <p>Google offered in: <a href=""> كوردي </a><a href=""> العربية </a></p>
+            <div class="lang">
+                Google offered in: 
+                <a href="">كوردي</a>
+                <a href="">العربية</a>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>Iraq</p>
-        <ul>
-            <li>About</li>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+        <h4>Iraq</h4>
+      <div class="links">
+        <div class="link-1">
+            <a href="">About</a>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How search Works</a>
+        </div>
+        <div class="link-2">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
+        </div>
     </footer>
-
-
 </body>
 </html>
